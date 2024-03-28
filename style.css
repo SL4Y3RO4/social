@@ -1,0 +1,46 @@
+* {
+    font-family: arial;
+}
+
+header {
+
+    position: relative;
+    left:42%;
+
+}
+
+h2 {
+
+    text-decoration: none;
+    font-style: none;
+    font-weight: none;
+    text-decoration: none;
+}
+
+h1 {
+
+    position: relative;
+    left:2.8%;
+
+}
+
+h2:hover {
+
+color: purple;
+
+}
+
+
+li {
+
+    position: absolute;
+    text-decoration: none;
+    font-style: none;
+
+}
+
+#bord {
+
+    position: relative;
+    border-radius: 45px;
+}
