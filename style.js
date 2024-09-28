@@ -94,9 +94,8 @@ changeColor();
 
 let indi = document.querySelectorAll('p');
 let k;
-arr = ["youtube", "telegram", "instagram", "twitch", "discord", "my game"];
+arr = ["youtube", "telegram", "instagram", "twitch", "discord", "my game", "R or SPACE:reload page"];
 let pow = 1;
-
 
 function generateIndi() {
 
@@ -105,8 +104,6 @@ for(k = 0; k < indi.length; k++) {
 indi[k].innerText = "Press " + pow++ + ":" + arr[k] + "\n";
 
 }
-
-
 }
 
 generateIndi();
