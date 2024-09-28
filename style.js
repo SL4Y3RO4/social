@@ -91,7 +91,7 @@ j();
 
 changeColor();
 
-
+let node = document.createElement('R or SPACE:reload page');
 let indi = document.querySelectorAll('p');
 let k;
 arr = ["youtube", "telegram", "instagram", "twitch", "discord", "my game", "R or SPACE:reload page"];
@@ -105,7 +105,7 @@ indi[k].innerText = "Press " + pow++ + ":" + arr[k] + "\n";
 
 }
 }
-
+document.body.append(node);
 generateIndi();
 
 
